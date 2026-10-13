@@ -1,0 +1,31 @@
+.env
+*.db
+.venv/
+__pycache__/
+.pytest_cache/
+node_modules/
+frontend/dist/
+
+# Environment variables (NEVER upload secrets to GitHub)
+.env
+backend/.env
+
+# Python / Virtual environment
+__pycache__/
+*.py[cod]
+.venv/
+.venv*/
+*.db
+*.sqlite3
+
+# Node / Frontend dependencies & builds
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
